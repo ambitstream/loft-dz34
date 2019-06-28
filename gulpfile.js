@@ -36,7 +36,7 @@ $.gulp.task('default', $.gulp.series(
   'clean',
   $.gulp.parallel(
     'sass',
-    'pug',
+    // 'pug',
     'js:foundation',
     'js:process',
     'copy:image',
@@ -53,7 +53,7 @@ $.gulp.task('build', $.gulp.series(
   'clean',
   $.gulp.parallel(
     'sass',
-    'pug',
+    // 'pug',
     'js:foundation',
     'js:process',
     'copy:image',
