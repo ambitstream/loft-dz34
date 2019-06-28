@@ -1,7 +1,7 @@
-section.form#contactForm
+section.form
   .container
     if (msgsemail)
-      .status= msgsemail
+      .status= msgemail
     .form__subtitle.subtitle Контактные данные
     h2.form__title.title Пишите, пообщаемся
     form(action="/" method="POST").form-email
