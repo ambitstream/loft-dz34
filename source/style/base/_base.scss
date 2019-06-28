@@ -5,8 +5,8 @@ body {
   height: 100%;
 }
 
-*, *::before, *::after { 
-  box-sizing: border-box; 
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
 .visuallyhidden {
@@ -61,4 +61,10 @@ body {
   margin: 0 auto;
   font-size: 16px;
   font-weight: 500;
+}
+
+
+.error__block {
+  color: #fff;
+  text-align: center;
 }
